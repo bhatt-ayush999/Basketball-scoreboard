@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-color: #fefae0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* socreCard */
+#scoreCard {
+    background-color: #1B244A;
+    height: 400px;
+    width: 600px;
+    margin: 150px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.board-titles {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+}
+
+.scoreText-container {
+    height: 120px;
+    width: 135px;
+    background-color: #080001;
+    font-family:"Bitcount Grid Single", system-ui;
+    color: #F94F6D;
+    font-size: 70px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 135px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-btn {
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:"Bitcount Grid Single", system-ui;
+}
+
+#home-score, #guest-score {
+    display: block;
+    margin: 12px auto;
+}
