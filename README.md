@@ -1,2 +1,2 @@
-# Basketball-scoreboard
+# Basketball-scoreboard-app
 
