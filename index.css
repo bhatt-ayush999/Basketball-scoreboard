@@ -62,4 +62,10 @@ body {
 #home-score, #guest-score {
     display: block;
     margin: 12px auto;
+    font-family: clock;
+}
+
+@font-face {
+    font-family: clock;
+    src: url("E1234.ttf");
 }
